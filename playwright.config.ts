@@ -15,7 +15,7 @@ export default defineConfig({
 
    // browserName: 'chromium', //use chrome browser to run
     //channel: 'chrome', 
-    headless: false, //to run in head mode
+    headless: true, //to run in head mode
     // ensure launchOptions is explicit so headful windows open reliably
     launchOptions: {
       // slowMo helps visually observe browser actions
