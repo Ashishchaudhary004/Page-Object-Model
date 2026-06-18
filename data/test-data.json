@@ -1,0 +1,7 @@
+{
+    "UserDetails":{
+        "firstname":"John",
+        "lastname":"Doe",  
+        "postalcode":"12345"
+    }
+}
