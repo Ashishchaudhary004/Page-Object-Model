@@ -16,7 +16,7 @@ test.describe("Cart Page test", async () => {
 
     test.beforeEach(async ({ page }) => {
         loginpage = new LoginPage(page);
-        Productpage = new ProductPage(page);
+        Productpage = new ProductPage(page)
         cartpage = new CartPage(page);
 
         await page.goto(BASE_URL);
